@@ -2,10 +2,14 @@
 //Done---create an empty array 
 var fizzBuzz = [];
 //Done---create a for loop
-for (var i = 0; i <= 1000; i++) {
-
+for (var i = 0; i <= 100; i++) {
+if (((i % 3) === 0) && ((i % 5) === 0)) {
+        //                 //if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
+        //slice fizzbuzz
+        fizzBuzz.push("Fizz Buzz")
+    }
     //Done---if the number when divided by 3 do something
-    if ((i % 3) === 0) {
+   else if ((i % 3) === 0) {
         fizzBuzz.push("Fizz"); 
         //  replace it with fizz  
 
@@ -17,11 +21,7 @@ for (var i = 0; i <= 1000; i++) {
         fizzBuzz.push("Buzz"); 
         //        //modulo equal to zero log buzz
         //console.log("buzz");
-    } else if (((i % 3) === 0) && ((i % 5) === 0)) {
-        //                 //if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
-        //slice fizzbuzz
-        fizzBuzz.push("Fizz Buzz")
-    }
+    } 
     //Done---log the for loop into an array
     fizzBuzz.push(i);
 };
