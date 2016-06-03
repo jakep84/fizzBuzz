@@ -6,7 +6,8 @@ var fizzBuzz = [];
 for (var i = 0; i <= 100; i++) {
     //Done---if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
     if (((i % 3) === 0) && ((i % 5) === 0)) {           //Done---push fizzbuzz
-        fizzBuzz.push("Fizz Buzz");
+        fizzBuzz.splice(i,"Fizz Buzz");
+        i--
         //remove coresponding number add "fizz buzz" in its place 
     }
     //Done---if the number when divided by 3 do something
