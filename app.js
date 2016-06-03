@@ -1,30 +1,29 @@
 //To do this I think I should plot the numbers out into an array and then splice the coresponding items as nessasary
+
 //Done---create an empty array 
 var fizzBuzz = [];
 //Done---create a for loop
 for (var i = 0; i <= 100; i++) {
-if (((i % 3) === 0) && ((i % 5) === 0)) {
-        //                 //if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
-        //slice fizzbuzz
-        fizzBuzz.push("Fizz Buzz")
+    //Done---if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
+    if (((i % 3) === 0) && ((i % 5) === 0)) {           //Done---push fizzbuzz
+        fizzBuzz.push("Fizz Buzz");
+        //remove coresponding number add "fizz buzz" in its place 
     }
     //Done---if the number when divided by 3 do something
-   else if ((i % 3) === 0) {
+    else if ((i % 3) === 0) {
+        //Done---push "fizz"
         fizzBuzz.push("Fizz"); 
-        //  replace it with fizz  
+        // remove coresponding number add fizz in its place  
 
-        //has a modulo equal to 0 log fizz
-        //if divisible by 5 log buzz
+    //Done---if divisible by 5 
     } else if ((i % 5) === 0) {
-        ////if the number when divided by 5 has a 
-        //splice buzz
+        //Done-- push "buzz"
         fizzBuzz.push("Buzz"); 
-        //        //modulo equal to zero log buzz
-        //console.log("buzz");
+        // remove coresponding number add fizz in its place
     } 
-    //Done---log the for loop into an array
+    //Done---log the for loop into an array called fizzBuzz
     fizzBuzz.push(i);
 };
-
+//Done---add fizzBuzz to the "demo" paragraph
 document.getElementById("demo").innerHTML = fizzBuzz;
-//run the fizzbuzz variable
+
