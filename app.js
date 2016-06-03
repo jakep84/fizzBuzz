@@ -1,14 +1,15 @@
-//To do this I think I should plot the numbers out into an array and then splice the coresponding items
-
-//log 1 to 100
+//To do this I think I should plot the numbers out into an array and then splice the coresponding items as nessasary
+//Done---create an empty array 
+var fizzBuzz = [];
+//Done---create a for loop
 for (var i = 0; i <=100; i++ ) {
-    } if ( (i / 3) % == 0) {
-    //if the number when divided by 3
-        //splice fizz
-        var fizz = 
+//Done---log the for loop into an array
+fizzBuzz.push(i);
+//if the number when divided by 3's modulos answer equals zero splice fizz   
+//if (i / 3) == 0) {
+    
     //has a modulo equal to 0 log fizz
 //if divisible by 5 log buzz
-console.log(i);
 //    } else if ((i/5) % == 0) {
 ////if the number when divided by 5 has a 
         //splice buzz
