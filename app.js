@@ -1,8 +1,11 @@
+//To do this I think I should plot the numbers out into an array and then splice the coresponding items
+
 //log 1 to 100
 for (var i = 0; i <=100; i++ ) {
     } if ( (i / 3) % == 0) {
     //if the number when divided by 3
         //splice fizz
+        var fizz = 
     //has a modulo equal to 0 log fizz
 //if divisible by 5 log buzz
 console.log(i);
