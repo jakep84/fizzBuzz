@@ -5,14 +5,21 @@ var fizzBuzz = [];
 //Done---create a for loop
 for (var i = 0; i <= 100; i++) {
     //Done---if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
-    if (((i % 3) === 0) && ((i % 5) === 0)) {           //Done---push fizzbuzz
-    //    fizzBuzz.push("Fizz Buzz");
+    if (((i % 3) === 0) && ((i % 5) === 0)) {           
+    //Done---push fizzbuzz
+        fizzBuzz.push("Fizz Buzz");
         //remove coresponding number add "fizz buzz" in its place
-
-
+        
+        
         //I feel like I should be able to splice the code at var i (ie - remove the given number and replace with "fizz buzz");
         //that is not the case though...I feel this should work
-//            fizBuzz.splice(i,1,"Fizz Buzz");
+    //        fizBuzz.splice(i,1);
+        
+        
+    //   My understanding of splice,  
+    //    var deleteCount = number of items to delete
+    //    array.splice(start,deleteCount[, item1[, item2[, ..]]]);
+    //   if you only put array.splice();    
         //but it doesn't work and I don't understand why.
         //also it is refusing to allow me to use .replace() as in ..
 //            fizzBuzz.replace(i,"Fizz Buzz");
