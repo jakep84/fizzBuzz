@@ -5,9 +5,10 @@ var fizzBuzz = [];
 for (var i = 0; i <=100; i++ ) {
 //Done---log the for loop into an array
 fizzBuzz.push(i);
-//if the number when divided by 3's modulos answer equals zero splice fizz   
-//if (i / 3) == 0) {
-    
+//if the number when divided by 3's modulos answer equals zero splice fizz  
+var fizzMe = i % 3 = 0;
+if (fizzMe) {
+    fizzBuzz.splice(fizzMe,1,"fizz");
     //has a modulo equal to 0 log fizz
 //if divisible by 5 log buzz
 //    } else if ((i/5) % == 0) {
