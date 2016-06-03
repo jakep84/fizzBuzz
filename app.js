@@ -2,7 +2,7 @@
 //Done---create an empty array 
 var fizzBuzz = [];
 //Done---create a for loop
-for (var i = 0; i <= 100; i++) {
+for (var i = 0; i <= 1000; i++) {
 
     //Done---if the number when divided by 3 do something
     if ((i % 3) === 0) {
@@ -26,5 +26,5 @@ for (var i = 0; i <= 100; i++) {
     fizzBuzz.push(i);
 };
 
-
+document.getElementById("demo").innerHTML = fizzBuzz;
 //run the fizzbuzz variable
