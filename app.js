@@ -6,9 +6,9 @@ for (var i = 0; i <=100; i++ ) {
 //Done---log the for loop into an array
 fizzBuzz.push(i);
 //if the number when divided by 3's modulos answer equals zero splice fizz  
-//if (i % 3 === 0) {
-//    fizzBuzz.splice(,,"fizz");
-fizzBuzz.replace((i % 3 == 0), "fizz" );
+if (i % 3 === 0) {
+    alert("yahtzee!");
+//fizzBuzz.replace((i % 3 == 0), "fizz" );
     //has a modulo equal to 0 log fizz
 //if divisible by 5 log buzz
 //    } else if ((i/5) % == 0) {
@@ -21,6 +21,7 @@ fizzBuzz.replace((i % 3 == 0), "fizz" );
         //slice fizzbuzz
 //              return i;
     }
+};
              
               
               //run the fizzbuzz variable
