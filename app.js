@@ -6,9 +6,18 @@ var fizzBuzz = [];
 for (var i = 0; i <= 100; i++) {
     //Done---if divisible by 3 && 5 && has a modulo equal to zero for both log fizzBuzz
     if (((i % 3) === 0) && ((i % 5) === 0)) {           //Done---push fizzbuzz
-        fizzBuzz.splice(i,"Fizz Buzz");
-        i--
-        //remove coresponding number add "fizz buzz" in its place 
+    //    fizzBuzz.push("Fizz Buzz");
+        //remove coresponding number add "fizz buzz" in its place
+
+
+        //I feel like I should be able to splice the code at var i (ie - remove the given number and replace with "fizz buzz");
+        //that is not the case though...I feel this should work
+//            fizBuzz.splice(i,1,"Fizz Buzz");
+        //but it doesn't work and I don't understand why.
+        //also it is refusing to allow me to use .replace() as in ..
+//            fizzBuzz.replace(i,"Fizz Buzz");
+
+
     }
     //Done---if the number when divided by 3 do something
     else if ((i % 3) === 0) {
@@ -16,7 +25,7 @@ for (var i = 0; i <= 100; i++) {
         fizzBuzz.push("Fizz"); 
         // remove coresponding number add fizz in its place  
 
-    //Done---if divisible by 5 
+        //Done---if divisible by 5 
     } else if ((i % 5) === 0) {
         //Done-- push "buzz"
         fizzBuzz.push("Buzz"); 
