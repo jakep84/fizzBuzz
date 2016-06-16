@@ -37,9 +37,10 @@ for (var i = 0; i <= 100; i++) {
         //Done-- push "buzz"
         fizzBuzz.push("Buzz"); 
         // remove coresponding number add fizz in its place
-    } 
+    } else { 
+        fizzBuzz.push(i);
     //Done---log the for loop into an array called fizzBuzz
-    fizzBuzz.push(i);
+}
 };
 //Done---add fizzBuzz to the "demo" paragraph
 document.getElementById("demo").innerHTML = fizzBuzz;
